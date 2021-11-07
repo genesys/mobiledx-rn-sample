@@ -1,10 +1,10 @@
-rootProject.name = 'GenesysChatSample'
+rootProject.name = 'mobiledx-rn-sample'
 
 include ':app'
 
-include ':react-native-android-module-gndx'
-project(':react-native-android-module-gndx').projectDir = new File(rootProject.projectDir,
-        '../node_modules/react-native-android-module-gndx/android')
+include ':genesys-mobiledx-chat-rn-module'
+project(':genesys-mobiledx-chat-rn-module').projectDir = new File(rootProject.projectDir,
+        '../node_modules/genesys-mobiledx-chat-rn-module/android')
 // for local usage of the library:
-//'../../react-native-android-module/android')//
+//'../../mobile-genesys-chat-rn-module/android')//
 
